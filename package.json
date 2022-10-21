@@ -1,0 +1,23 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "It generates a readme file according to the user selection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizborges146/readme-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizborges146/readme-generator/issues"
+  },
+  "homepage": "https://github.com/luizborges146/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
