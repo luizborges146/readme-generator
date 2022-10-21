@@ -6,38 +6,55 @@ inquirer
     .prompt([
         {
             type:"input",
-            message:"Please, enter your name",
+            message:"Please, enter your name:",
+            name:"userName",
+        },
+        {
+            type:"input",
+            message:"Please, enter your project name:",
+            name:"projectName",
+        },
+        {
+            type:"input",
+            message:"Please enter your project description:",
+            name:"projectDescription",
+        }, 
+        {
+            type:"input",
+            message:"Please, provide your github project name:",
             name:"test",
         },
         {
             type:"input",
-            message:"Please, enter your project name",
-            name:"test",
+            message:"Plase, enter your GitHub user name:",
+            name:"githubUserName",
         },
         {
             type:"input",
-            message:"Plase, enter your GitHub user name",
+            message:"Please, provide your linkdIn url:",
             name:"test",
+        }, 
+        {
+            type:"input",
+            message:"Please, enter your email:",
+            name:"userEmail",
         },
         {
             type:"input",
-            message:"Please, enter your email",
-            name:"test",
-        },    {
-            type:"input",
-            message:"Any message",
+            message:"Any message:",
             name:"test",
         }, 
     ])
     .then((responses)=> {
-        const readMeFile = generateREAD(responses);
+        console.log(responses);
+        // const readMeFile = generateREAD(responses);
 
-        fs.writeFile("README.md", generateREAD,(err) => {
-            if(err) {
-                throw err;
-            }
-            console.log("README.MD Successfully created")
-        })
+        // fs.writeFile("README.md", generateREAD,(err) => {
+        //     if(err) {
+        //         throw err;
+        //     }
+        //     console.log("README.MD Successfully created")
+        // })
     });
   
 
