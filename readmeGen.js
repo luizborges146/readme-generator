@@ -3,12 +3,13 @@
 const generateREAD = (responses) =>
 `
 # ${responses.projectName}
+Link to [GitHub repository](https://github.com/${responses.githubUserName}/${responses.githubRepoName})
 
 ## Table of Contents
 
 1.  [Description](#description)
 2.  [Instalation](#instalation)
-3.  [Usage](#usage)
+3.  [Usage Infomration](#usage)
 4.  [External support documentation](#externalDocumentation)
 5.  [Tests](#tests)
 6.  [Social](#social)
