@@ -48,28 +48,24 @@ inquirer
         },
         // Table of contents extra infomration/////////////////////////////////////////////
         {
-            type:"list",
+            type:"input",
             message:"Does your project needs to be tested",
             name:"tester",
-            choice:["N/A", "Yes"]
         }, 
         {
-            type:"list",
+            type:"input",
             message:"Is intallation required:",
             name:"installation",
-            choice:["N/A", "Yes"]
         }, 
         {
-            type:"list",
+            type:"input",
             message:"Does your project has Plug-ins",
             name:"plugins",
-            choice:["N/A", "Yes"]
         }, 
         {
-            type:"list",
+            type:"input",
             message:"Please select a licence",
             name:"license",
-            choice:["Apache", "BSD"]
         }
     ])
     .then((responses)=> {
