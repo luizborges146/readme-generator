@@ -1,8 +1,8 @@
 
-# LuizBorges
-Link to [GitHub repository](https://github.com/luizborges146/ wewegewg e)
+# README Generator
+Link to [GitHub repository](https://github.com/luizborges146/readme-generator)
 
-[![License](https://img.shields.io/badge/License-Apashe%202.0-blue.svg)](https://opensource.org/licenses/Apashe-2.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
     
 ## Table of Contents
@@ -17,14 +17,14 @@ Link to [GitHub repository](https://github.com/luizborges146/ wewegewg e)
 8.  [License](#license)
     
 ## [Description](#description)
-asfagegheh sdgsdgsebszdb waegwesdgbbbbbbbbbbbbbbbbbbbbbbbbbb wefgwaegqw gqe
+This project was created to reduce the time the user spent to create the README.md file before uploading it to the GitHub. The idea is to allow the user to answer some questions and the generator process the template, so the user does not need to spend time updating the information such as: GitHub repository link, GitHub name, table of content, external support documentation, Social and also the page format, as that information will be uploaded automatically once the user answer the questions.
     
     
 ## [Instalation](#instalation)
 N/A    
     
 ## [Usage](#usage)
-adadv 
+Allow user to add to add information about the repository, user social connections and contact with email, the repository name that will be linked to the user repository, also apply the license name.
     
 
 ## [External support documentation](#externalDoc)
@@ -40,12 +40,12 @@ adadv
     
     
 ## [Tests](#tests)
-wegweg 
+N/A
     
 ## [Social](#social)
-if you need any further information or support, please, send an email to: luiz@gmail.com
+if you need any further information or support, please, send an email to: luiz.borges.146@gmail.com
     
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/luizborges146) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>]()
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/luizborges146) [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/luiz-borges-2377b7142/)
     
     
     
@@ -53,7 +53,7 @@ if you need any further information or support, please, send an email to: luiz@g
 N/A
     
 ## [License](#license)
-License Information: [Apashe](https://opensource.org/licenses/Apache-2.0)";
+License Information: [Apache](https://opensource.org/licenses/Apache-2.0)";
 
-Created by Luiz
+Created by Luiz Borges
 Please refer to the LICENSE in the repo.
