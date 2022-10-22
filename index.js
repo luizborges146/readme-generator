@@ -80,12 +80,6 @@ inquirer
         })
     });
 
-
-
-  
-
-
-
 const generateREAD = (responses) =>
 `
 # ${responses.projectName}
