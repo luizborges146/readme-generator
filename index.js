@@ -38,6 +38,11 @@ inquirer
         }, 
         {
             type:"input",
+            message:"Please enter your project usage:",
+            name:"projectUsege",
+        }, 
+        {
+            type:"input",
             message:"Please, provide your GitHub repo name:",
             name:"githubRepoName",
         },
@@ -46,6 +51,12 @@ inquirer
             type:"list",
             message:"Does your project needs to be tested",
             name:"tester",
+            choice:["N/A", "Yes"]
+        }, 
+        {
+            type:"list",
+            message:"Is intallation required:",
+            name:"installation",
             choice:["N/A", "Yes"]
         }, 
         {
@@ -83,6 +94,9 @@ const generateREAD = (responses) =>
 `
 # ${responses.projectName}
 Link to [GitHub repository](https://github.com/${responses.githubUserName}/${responses.githubRepoName})
+
+[![License](https://img.shields.io/badge/License-${responses.license}%202.0-blue.svg)](https://opensource.org/licenses/${responses.license}-2.0)
+
     
 ## Table of Contents
     
@@ -100,9 +114,10 @@ ${responses.projectDescription}
     
     
 ## [Instalation](#instalation)
-    
+${responses.installation}    
     
 ## [Usage](#usage)
+${responses.projectUsege}
     
 
 ## [External support documentation](#externalDoc)
@@ -128,10 +143,11 @@ if you need any further information or support, please, send an email to: ${resp
     
     
 ## [Plugins](#plugins)
-N/A
+${responses.plugins}
     
 ## [License](#license)
+License Information: [${responses.license}](https://opensource.org/licenses/Apache-2.0)";
+
 Created by ${responses.userName}
 Please refer to the LICENSE in the repo.
 `;
-
